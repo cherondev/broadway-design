@@ -1,11 +1,3 @@
-
-/*
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;;
-}*/
-
 body {
   font-family: Helvetica, sans-serif, verdana;
   text-align: center;
@@ -48,6 +40,7 @@ h3 {
   font-size: 23px;
   font-weight: 900;
 }
+
 p {
   font-size: 14px;
 }
@@ -60,13 +53,10 @@ p {
   color: white;
 }
 
-.copyright {
-  font-size: 11px;
-}
-
 footer {
   background-color: dimgray;
   color: white;
   font-weight: bold;
   text-align: left;
+  font-size: 11px;
 }
