@@ -1,6 +1,23 @@
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}*/
+
 body {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif, verdana;
   text-align: center;
+  background-color: black;
+  padding: 170px;
+}
+
+.container {
+  background-color: white;
+  padding: 8px 8px 0px 8px;
+  margin: auto;
+  width: 1830px;
 }
 
 header {
@@ -11,7 +28,6 @@ header {
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
 }
 
 .nav-menu ul {
@@ -27,19 +43,31 @@ a {
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
+
 h3 {
-  font-size: 23px
-  font-weight: bold;
+  font-size: 23px;
+  font-weight: 900;
 }
 p {
   font-size: 14px;
 }
 
-.new-york h2 {
+#new-york h2 {
   background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 900;
   color: white;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+footer {
+  background-color: dimgray;
+  color: white;
+  font-weight: bold;
+  text-align: left;
 }
